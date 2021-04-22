@@ -1,0 +1,295 @@
+:root {
+    --grad1: linear-gradient(169deg, rgba(20, 19, 19, 0.9839286056219363) 14%, rgba(0, 0, 0, 0.9867297260701156) 54%, rgba(29, 34, 34, 0.9867297260701156) 96%);
+    --grad2: linear-gradient(to bottom, #171415, #191518, #1b171b, #1b181e, #1b1a22, #181a22, #161b22, #131b22, #11191e, #10171a, #0f1516, #0f1212);
+    --grad3: linear-gradient(to right top, #333743, #1a3c4a, #004143, #05432a, #2f4009);
+    --grad4: linear-gradient(to right bottom, #83c8ba, #70c5c6, #62c1d2, #5fbbdd, #69b4e5, #65afdb, #62a9d1, #5fa4c7, #5d9cab, #669291, #70867f, #747a75);
+}
+
+html,
+body {
+    background: var(--grad1);
+    width: 100%;
+    padding: 0rem;
+    border: 0rem;
+    margin: 0rem;
+    overflow-x: hidden;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+/* Navigation Part */
+
+.navig {
+    position: fixed;
+    min-width: 70%;
+    padding: 2px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: .9rem;
+    font-weight: 600;
+    background-color: grey;
+    border-radius: 5px;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+
+.navig .row a {
+    color: black;
+}
+
+.navig .row a:hover {
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0), -3px -3px 3px rgb(0, 0, 0), -3px 3px 3px rgb(0, 0, 0), 3px -3px 3px rgb(0, 0, 0);
+    transform: 1.25;
+}
+
+
+/* Introduction part */
+
+.intro-1 {
+    background-image: url("../image/210966.jpg");
+    background-size: cover;
+}
+
+.head-1 {
+    text-align: center;
+    color: white;
+    padding: 8rem 1rem 4rem 1rem;
+
+}
+
+
+.head-2 {
+    color: white;
+    padding: 3rem 1rem 1rem 1rem;
+
+}
+
+
+.head-2 div {
+    border-radius: 10px;
+    border-left: 4px dashed rgb(43, 41, 41)
+}
+
+.head-2 div div {
+    border-radius: 8px;
+    padding: 0px 0px 0px 6px;
+    border-left: 4px solid rgb(95, 93, 93);
+}
+
+.head-3 {
+    color: white;
+    padding: 3rem 1rem 7rem 1rem;
+
+}
+
+.head-3 div {
+    border-radius: 10px;
+    border-right: 4px dashed rgb(43, 41, 41)
+}
+
+.head-3 div div {
+    text-align: right;
+    border-radius: 8px;
+    padding: 0px 6px 0px 0px;
+    border-right: 4px solid rgb(95, 93, 93);
+}
+
+.intro-end {
+    background-color: #000000;
+    font-weight: 500;
+    color: rgb(196, 191, 191);
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+/* Education Part */
+
+.intro-2 {
+    padding: 8%;
+}
+
+.intro-book {
+    color: bisque;
+    background: url("../image/26102.jpg");
+    background-size: cover;
+    padding: 1% 5% 10% 5%;
+    box-shadow: 10px 10px 20px whitesmoke, -10px -10px 20px whitesmoke, 10px -10px 20px whitesmoke, -10px 10px 20px whitesmoke;
+}
+
+.intro-book div h2 {
+    margin-top: 0px;
+    color: bisque;
+}
+
+
+.edu-head {
+    padding: 20px 15px 30px 15px;
+}
+
+
+.inst {
+    padding: 35px 5px;
+}
+
+.inst .row .col-sm-2 {
+    padding-left: 0px;
+}
+
+.inst img {
+    width: 100%;
+    min-width: 75px;
+    max-width: 160px;
+}
+
+.ins-name {
+    margin: auto;
+    padding-left: 5px;
+}
+
+/* Co-Curicular Part */
+
+.co-curicular {
+    background: var(--grad2);
+    margin-top: -10px;
+    padding: 0% 10px;
+    color: wheat;
+}
+
+.co-head {
+
+    position: relative;
+    margin-top: -10%;
+    padding-bottom: 30px;
+}
+
+.co-curicular .row {
+    margin: 0px;
+}
+
+.co-curicular img {
+    width: 100%;
+    max-width: 125px;
+    min-width: 75px;
+}
+
+.co-inst {
+    padding: 30px 10px;
+}
+
+.co-inst-logo {
+    padding: 0px 20px 20px 0px;
+}
+
+.co-inst-head {
+    margin: auto 0%;
+}
+
+/* Project Part */
+
+.project {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: var(--grad3);
+    color: wheat;
+}
+
+.project .project-head {
+    color: wheat;
+    position: relative;
+    margin-top: -10%;
+    margin-bottom: 80px;
+}
+
+.project-head div {
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px wheat;
+}
+
+.p3-box {
+    margin: 0% 10% 0% 10%;
+}
+
+.p3-box a {
+    color: white;
+}
+
+.p-box {
+    margin: 0px 5px 60px 5px;
+}
+
+.p-box .d1 {
+    position: relative;
+    background: var(--grad1);
+    border: 8px double rgb(168, 187, 151);
+    border-radius: 3px;
+    box-shadow: 15px 15px 10px black;
+    overflow: hidden;
+}
+
+.d1 img {
+    width: 100%;
+    transition: transform 1s ease;
+}
+
+.content {
+    position: absolute;
+    top: -400%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+    transition: all 0.6s;
+}
+
+.p-box :hover .content {
+    top: 0;
+}
+
+.p-box :hover img {
+    transform: scale(1.2);
+}
+
+.content h5 {
+    background-color: #062e30;
+    padding: 6px;
+    margin-bottom: 5px;
+    border-bottom: 4px double wheat;
+}
+
+.content p {
+    padding: 20px 5px;
+
+}
+
+
+
+/*Footer Part */
+
+.fqa {
+    color: white;
+    font-size: 1.1rem;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.fqa .row .col-sm-4 {
+    padding: 10px;
+}
+
+.fqa .row .col-sm-4 p {
+    text-align: center;
+    margin-bottom: 0rem;
+}
