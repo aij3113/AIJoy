@@ -2,17 +2,28 @@
     --grad1: linear-gradient(169deg, rgba(20, 19, 19, 0.9839286056219363) 14%, rgba(0, 0, 0, 0.9867297260701156) 54%, rgba(29, 34, 34, 0.9867297260701156) 96%);
     --grad2: linear-gradient(to bottom, #171415, #191518, #1b171b, #1b181e, #1b1a22, #181a22, #161b22, #131b22, #11191e, #10171a, #0f1516, #0f1212);
     --grad3: linear-gradient(to right top, #333743, #1a3c4a, #004143, #05432a, #2f4009);
-    --grad4: linear-gradient(to right bottom, #83c8ba, #70c5c6, #62c1d2, #5fbbdd, #69b4e5, #65afdb, #62a9d1, #5fa4c7, #5d9cab, #669291, #70867f, #747a75);
+    --grad4: radial-gradient(circle, #384341, #324240, #2d413f, #26403e, #1f3f3d, #1b3d3b, #173a38, #123836, #113431, #112f2d, #102b28, #0f2724);
 }
 
 html,
 body {
+    letter-spacing: 0px;
     background: var(--grad1);
     width: 100%;
     padding: 0rem;
     border: 0rem;
     margin: 0rem;
     overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -1px;
+
 }
 
 
@@ -53,6 +64,7 @@ a:link {
 
 
 /* Introduction part */
+
 
 .intro-1 {
     background-image: url("../image/210966.jpg");
@@ -209,9 +221,12 @@ a:link {
     position: relative;
     margin-top: -10%;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .project-head div {
+    width: 200px;
     margin: 10px;
     padding: 15px;
     box-shadow: 5px 5px 5px wheat;
@@ -276,6 +291,33 @@ a:link {
     padding: 20px 5px;
 
 }
+
+/*Gallery Part */
+
+.gallery {
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.562);
+    background: var(--grad4);
+
+}
+
+.gallery-head {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-head h1 {
+    color: rgb(1, 255, 65);
+    width: 220px;
+    position: relative;
+    margin-top: -40px;
+    padding: 15px;
+    border: 4px solid rgba(28, 37, 31, 0.5);
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: 5px 5px 5px rgb(1, 255, 65), -5px -5px 5px rgba(1, 255, 65), 5px -5px 5px rgb(1, 255, 65), -5px 5px 5px rgb(1, 255, 65);
+}
+
 
 
 
