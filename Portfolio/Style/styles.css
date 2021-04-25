@@ -319,6 +319,7 @@ a:link {
     padding: 0px;
 }
 
+
 .img-1 img {
     width: 100%;
     height: auto;
@@ -330,6 +331,7 @@ a:link {
     border: 3px solid black;
     border-radius: 2px;
     box-shadow: 10px 10px 20px black;
+    transition: 1.5s;
 }
 
 .img-2 img {
@@ -338,11 +340,12 @@ a:link {
 }
 
 .img-2 {
-    margin: 4%;
+    margin: 5%;
     padding: 0px;
     border: 3px solid black;
     border-radius: 2px;
     box-shadow: 15px 15px 15px black;
+    transition: 1.5s;
 }
 
 .img-3 img {
@@ -356,6 +359,19 @@ a:link {
     border: 3px solid black;
     border-radius: 2px;
     box-shadow: 10px 10px 20px black;
+    transition: 1.5s;
+}
+
+.img-1:hover {
+    transform: scale(1.2);
+}
+
+.img-2:hover {
+    transform: scale(1.12);
+}
+
+.img-3:hover {
+    transform: scale(1.2);
 }
 
 
