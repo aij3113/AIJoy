@@ -466,30 +466,38 @@ a:link {
         max-width: 80px;
     }
 
-}
+    .project-head div {
+        width: 150px;
 
-@media only screen and (max-width: 330px) {
-    h1 {
-        font-size: 25px;
     }
 
-    h2 {
-        font-size: 22px;
-    }
+    @media only screen and (max-width: 330px) {
+        h1 {
+            font-size: 25px;
+        }
 
-    h3 {
-        font-size: 20px;
-    }
+        h2 {
+            font-size: 22px;
+        }
 
-    h5 {
-        font-size: 18px;
-    }
+        h3 {
+            font-size: 20px;
+        }
 
-    h6 {
-        font-size: 16px;
-    }
+        h5 {
+            font-size: 18px;
+        }
 
-    p {
-        font-size: 15px;
+        h6 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .project-head div {
+            width: 130px;
+
+        }
     }
-}
