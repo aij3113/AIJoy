@@ -323,6 +323,7 @@ a:link {
 .img-1 img {
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
 .img-1 {
@@ -337,6 +338,7 @@ a:link {
 .img-2 img {
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
 .img-2 {
