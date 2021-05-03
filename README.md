@@ -1,2 +1,3 @@
 # AIJoy
-# Its all about myself
+# It is about myself.
+# My Portfolio is here. 
