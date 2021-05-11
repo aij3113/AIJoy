@@ -23,7 +23,10 @@ h4,
 h5,
 h6 {
     letter-spacing: -1px;
+}
 
+hr {
+    margin: 8px;
 }
 
 
@@ -319,13 +322,6 @@ a:link {
     padding: 0px;
 }
 
-
-.img-1 img {
-    width: 100%;
-    height: auto;
-    padding: 0px;
-}
-
 .img-1 {
     margin: 12%;
     padding: 0px;
@@ -335,9 +331,9 @@ a:link {
     transition: 1.5s;
 }
 
-.img-2 img {
+.img-1 img {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 0px;
 }
 
@@ -350,9 +346,10 @@ a:link {
     transition: 1.5s;
 }
 
-.img-3 img {
+.img-2 img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding: 0px;
 }
 
 .img-3 {
@@ -362,6 +359,12 @@ a:link {
     border-radius: 2px;
     box-shadow: 10px 10px 20px black;
     transition: 1.5s;
+}
+
+.img-3 img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
 }
 
 .img-1:hover {
@@ -382,19 +385,20 @@ a:link {
 
 .fqa {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: black;
     padding-top: 25px;
     padding-bottom: 15px;
 }
 
-.fqa .row .col-sm-4 {
-    padding: 10px;
+.fqa .details {
+    margin: auto;
+    padding: 20px 0px;
 }
 
-.fqa .row .col-sm-4 p {
+.fqa .details p {
     text-align: center;
-    margin-bottom: 0rem;
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -419,7 +423,7 @@ a:link {
     }
 
     p {
-        font-size: 3.15vw;
+        font-size: 3vw;
     }
 
 }
@@ -431,6 +435,10 @@ a:link {
         width: 100%;
         min-width: 80px;
         max-width: 90px;
+    }
+
+    .gallery-head h1 {
+        width: 160px;
     }
 
 }
@@ -470,34 +478,38 @@ a:link {
         width: 150px;
 
     }
+}
 
-    @media only screen and (max-width: 330px) {
-        h1 {
-            font-size: 25px;
-        }
-
-        h2 {
-            font-size: 22px;
-        }
-
-        h3 {
-            font-size: 20px;
-        }
-
-        h5 {
-            font-size: 18px;
-        }
-
-        h6 {
-            font-size: 16px;
-        }
-
-        p {
-            font-size: 15px;
-        }
-
-        .project-head div {
-            width: 130px;
-
-        }
+@media only screen and (max-width: 330px) {
+    h1 {
+        font-size: 25px;
     }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .project-head div {
+        width: 130px;
+    }
+
+    .gallery-head h1 {
+        width: 120px;
+    }
+}
