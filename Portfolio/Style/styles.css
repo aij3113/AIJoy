@@ -392,12 +392,14 @@ a:link {
 }
 
 .fqa .details {
+    display: flex;
+    justify-content: center;
     margin: auto;
     padding: 20px 0px;
 }
 
+
 .fqa .details p {
-    text-align: center;
     margin-bottom: 0px;
 }
 
