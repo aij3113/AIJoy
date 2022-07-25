@@ -131,14 +131,12 @@ a:link {
 
 .intro-2 {
     padding: 8%;
+    background: url("../image/26102.jpg");
+    background-size: cover;
 }
 
 .intro-book {
     color: bisque;
-    background: url("../image/26102.jpg");
-    background-size: cover;
-    padding: 1% 5% 10% 5%;
-    box-shadow: 10px 10px 20px whitesmoke, -10px -10px 20px whitesmoke, 10px -10px 20px whitesmoke, -10px 10px 20px whitesmoke;
 }
 
 .intro-book div h2 {
