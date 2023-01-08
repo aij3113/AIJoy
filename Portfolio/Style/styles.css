@@ -130,18 +130,15 @@ a:link {
 /* Education Part */
 
 .intro-2 {
-    padding: 8%;
     background: url("../image/26102.jpg");
-<<<<<<< HEAD
     background-size: cover;
-=======
-    background-color: rgba(0,0,0,0.1);
-    background-size:cover;
->>>>>>> b8f506ca12d7861fa43339e7e470f3cfdac08b9d
+
 }
 
 .intro-book {
     color: bisque;
+    padding: 1% 15% 10% 15%;
+    
 }
 
 .intro-book div h2 {
@@ -176,8 +173,11 @@ a:link {
 
 /* Co-Curicular Part */
 
-.co-curicular {
+.intro-3 {
     background: var(--grad2);
+}
+
+.co-curicular {
     margin-top: -10px;
     padding: 0% 10px;
     color: wheat;
